@@ -1,0 +1,14 @@
+ALGORITHM: Compare Two Integers
+
+1. START
+2. DECLARE two integer variables 'a' and 'b'
+3. READ integer value for 'a' from user input
+4. READ integer value for 'b' from user input
+5. IF 'a' is greater than 'b' THEN
+       DISPLAY "First value is greater"
+   ELSE IF 'a' is less than 'b' THEN
+       DISPLAY "Second value is greater"
+   ELSE
+       DISPLAY "Both values are equal"
+   END IF
+6. END
