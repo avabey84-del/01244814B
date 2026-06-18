@@ -1,0 +1,15 @@
+BEGIN
+    DECLARE a AS INTEGER
+    DECLARE b AS INTEGER
+    
+    INPUT a
+    INPUT b
+
+    IF a > b THEN
+        OUTPUT "First value is greater"
+    ELSE IF a < b THEN
+        OUTPUT "Second value is greater"
+    ELSE
+        OUTPUT "Both values are equal"
+    END IF
+END
